@@ -13,20 +13,14 @@
     <script src="app.js" defer></script>
   </head>
   <body>
-    <section id="vue-binding" >
-      <!-- 1) Renderize seu nome -->
-      <h2>{{ name }}</h2>
-      <!-- 2) Renderize sua idade -->
-      <p>{{ age }} anos</p>
-      <!-- 3) Renderize sua idade + 5 -->
-      <p>{{ addAge(5) }}</p>
-
-      <div>
-        <!-- 4) Mostre uma imagem encontrada no Google -->
-        <img v-bind:src="imageLink" />
-      </div>
-      <!-- 5) Coloque seu nome no input: -->
-      <input type="text" v-bind:value="name"/>
+    <section id="events">
+      <h2>Two way binding</h2>
+      <button>Somar 10</button>
+      <button>Subtrair 5</button>
+      <p>Resultado: </p>
+      <input type="text" >
+      <button >Resetar valor</button>
+      <p>Seu nome: </p>
     </section>
   </body>
 </html>
