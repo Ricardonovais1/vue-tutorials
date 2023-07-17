@@ -43,8 +43,8 @@ body {
 
 #events input:focus {
   outline: none;
-  border-color: #1b995e;
-  background-color: #d7fdeb;
+  border-color: #1b3299;
+  background-color: hsl(219, 100%, 93%);
 }
 
 #events button {
